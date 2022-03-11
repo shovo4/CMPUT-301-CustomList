@@ -55,7 +55,7 @@ public class CustomList extends ArrayAdapter<City> {
         return;
     }
     public Boolean hasCity(){
-        return false;//!cities.isEmpty();
+        return !cities.isEmpty();
     }
     public void deleteCity(){
         cities.remove(cities.size()-1);
